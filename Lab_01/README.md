@@ -1,6 +1,6 @@
 # Lab 01: Backpropagation
 ### **Description**
-In this lab, the focus is on building an accurate neural network for classification on the Fashion-MNIST dataset. I implemented a simple CNN enhanced with data augmentation, center loss, balanced data sampling, and the Adam optimizer. With these techniques, I improved the model’s accuracy from 90% to 94% without increasing the number of parameters.
+In this lab, the focus is on building an accurate neural network for classification on the Fashion-MNIST dataset. I implemented a simple CNN enhanced with data augmentation, center loss, balanced data sampling, and the Adam optimizer. With these techniques, I improved the model’s accuracy from 90% to 94% (on validation set) without increasing the number of parameters.
 
 - In Task 1, I built a CNN from scratch using NumPy, including forward propagation, backward propagation, optimizers, and loss functions.
 
