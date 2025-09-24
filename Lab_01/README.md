@@ -27,6 +27,7 @@ Lab_01/
 ├── 2025_DL_Lab01.pdf   (Assignment description)
 ├── Lab01_task1_exe.py  (Equivalent to Lab01_task1.ipynb)
 ├── Lab01_task1.ipynb   (Numpy implementation)
-└── Lab01_task2.ipynb   (PyTorch implementation)
+├── Lab01_task2.ipynb   (PyTorch implementation)
+└── Lab01_report.pdf    (Lab report)
 ```
 
