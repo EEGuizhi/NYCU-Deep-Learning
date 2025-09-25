@@ -16,6 +16,16 @@ https://drive.google.com/drive/folders/1CG1yxgXLU2at19rPChJ4jxg4UXy1h6sq?usp=dri
 To download the trained model weights, please see:</br>
 https://drive.google.com/drive/folders/1z3MCduA288mZ5ZaKoLXh4mVFQodUo8xf?usp=drive_link
 
+### **Performance Ranking**
+- **Rank**:  3 / 139
+- **Accuracy**:
+
+  | Public Test Set (200) | Private Test Set (9800) |
+  |---|---|
+  | 93.5 % | 94.8 % |
+  
+  (The predictions in `DL-test-predict.csv` were not made by the trained model from the link above.)
+
 ### **Folder Structure**
 ```
 Lab_01/
