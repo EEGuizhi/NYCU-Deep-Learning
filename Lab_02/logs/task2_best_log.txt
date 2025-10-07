@@ -1,0 +1,107 @@
+[INFO] Setting global seed to 37
+[INFO] Dataset sizes: train=2500
+x.shape=torch.Size([8, 1, 158, 238]), y.shape=torch.Size([8, 3]), y=tensor([[26., 11., 37.],
+        [ 7., 11., 18.],
+        [27.,  7., 34.],
+        [ 7., 13., 20.],
+        [29., 10., 39.],
+        [29.,  9., 38.],
+        [10., 14., 24.],
+        [27.,  8., 35.]])
+[INFO] Summary displayed above and saved to summary.txt
+[INFO] Dataset sizes: train=2500, val=700, test=200
+[INFO] Using device: cuda
+model saved
+[Epoch  1] Train Loss:   5.2223 |  MAE[r,l,t] = [ 5.7530,  2.3803,  7.7093] | Avg MAE:  5.2808
+             Val Loss:   4.8032 | RMSE[r,l,t] = [ 6.2048,  3.1539,  8.1368] | Avg RMSE:  5.8318
+model saved
+[Epoch  2] Train Loss:   2.3690 |  MAE[r,l,t] = [ 1.7809,  2.4536,  2.1113] | Avg MAE:  2.1153
+             Val Loss:   1.6752 | RMSE[r,l,t] = [ 2.1850,  3.3412,  2.6944] | Avg RMSE:  2.7402
+[Epoch  3] Train Loss:   1.8544 |  MAE[r,l,t] = [ 2.5916,  6.4572,  5.4317] | Avg MAE:  4.8268
+             Val Loss:   4.3465 | RMSE[r,l,t] = [ 3.2446,  7.2083,  6.3087] | Avg RMSE:  5.5872
+[Epoch  4] Train Loss:   1.7111 |  MAE[r,l,t] = [ 3.3973,  3.4587,  1.7445] | Avg MAE:  2.8668
+             Val Loss:   2.4087 | RMSE[r,l,t] = [ 3.9828,  4.2868,  2.2135] | Avg RMSE:  3.4944
+[Epoch  5] Train Loss:   1.6187 |  MAE[r,l,t] = [ 2.6868,  3.4669,  5.4568] | Avg MAE:  3.8702
+             Val Loss:   3.3850 | RMSE[r,l,t] = [ 3.0846,  4.1863,  5.9556] | Avg RMSE:  4.4088
+[Epoch  6] Train Loss:   1.5249 |  MAE[r,l,t] = [ 4.3159,  4.6699,  9.4154] | Avg MAE:  6.1337
+             Val Loss:   5.6436 | RMSE[r,l,t] = [ 4.8610,  5.5257,  9.7342] | Avg RMSE:  6.7070
+model saved
+[Epoch  7] Train Loss:   1.4020 |  MAE[r,l,t] = [ 1.7602,  2.6151,  2.1546] | Avg MAE:  2.1766
+             Val Loss:   1.7251 | RMSE[r,l,t] = [ 2.0909,  3.2865,  2.5812] | Avg RMSE:  2.6529
+[Epoch  8] Train Loss:   1.4247 |  MAE[r,l,t] = [ 3.0216,  2.9481,  2.4180] | Avg MAE:  2.7959
+             Val Loss:   2.3309 | RMSE[r,l,t] = [ 3.7975,  3.5562,  2.8599] | Avg RMSE:  3.4045
+model saved
+[Epoch  9] Train Loss:   1.2753 |  MAE[r,l,t] = [ 1.6880,  2.6572,  1.8031] | Avg MAE:  2.0494
+             Val Loss:   1.5966 | RMSE[r,l,t] = [ 1.9753,  3.2415,  2.2561] | Avg RMSE:  2.4910
+[Epoch 10] Train Loss:   1.2810 |  MAE[r,l,t] = [ 1.8778,  2.6579,  1.9204] | Avg MAE:  2.1520
+             Val Loss:   1.6890 | RMSE[r,l,t] = [ 2.1356,  3.1023,  2.4570] | Avg RMSE:  2.5649
+[Epoch 11] Train Loss:   1.0527 |  MAE[r,l,t] = [ 1.9513,  3.3777,  3.3388] | Avg MAE:  2.8893
+             Val Loss:   2.4169 | RMSE[r,l,t] = [ 2.2903,  4.0023,  3.9098] | Avg RMSE:  3.4008
+[Epoch 12] Train Loss:   1.1387 |  MAE[r,l,t] = [ 1.9089,  3.5405,  3.4666] | Avg MAE:  2.9720
+             Val Loss:   2.5089 | RMSE[r,l,t] = [ 2.3011,  4.2307,  4.0350] | Avg RMSE:  3.5223
+[Epoch 13] Train Loss:   1.0317 |  MAE[r,l,t] = [ 2.2735,  2.7719,  3.1829] | Avg MAE:  2.7428
+             Val Loss:   2.2673 | RMSE[r,l,t] = [ 2.6924,  3.3149,  3.6405] | Avg RMSE:  3.2159
+[Epoch 14] Train Loss:   1.0250 |  MAE[r,l,t] = [ 2.0873,  2.8690,  2.7865] | Avg MAE:  2.5809
+             Val Loss:   2.1154 | RMSE[r,l,t] = [ 2.4822,  3.3355,  3.4461] | Avg RMSE:  3.0879
+[Epoch 15] Train Loss:   1.0150 |  MAE[r,l,t] = [ 1.9404,  3.3017,  3.9859] | Avg MAE:  3.0760
+             Val Loss:   2.6104 | RMSE[r,l,t] = [ 2.4472,  3.9803,  4.5110] | Avg RMSE:  3.6462
+model saved
+[Epoch 16] Train Loss:   0.8182 |  MAE[r,l,t] = [ 1.8327,  2.4625,  1.9441] | Avg MAE:  2.0798
+             Val Loss:   1.6309 | RMSE[r,l,t] = [ 2.1810,  3.0048,  2.3881] | Avg RMSE:  2.5246
+[Epoch 17] Train Loss:   0.8173 |  MAE[r,l,t] = [ 1.9836,  3.0470,  1.8303] | Avg MAE:  2.2870
+             Val Loss:   1.8348 | RMSE[r,l,t] = [ 2.4118,  3.7278,  2.3497] | Avg RMSE:  2.8298
+model saved
+[Epoch 18] Train Loss:   0.7481 |  MAE[r,l,t] = [ 1.8116,  2.3926,  1.6487] | Avg MAE:  1.9510
+             Val Loss:   1.5023 | RMSE[r,l,t] = [ 2.0969,  2.9192,  2.0342] | Avg RMSE:  2.3501
+model saved
+[Epoch 19] Train Loss:   0.7258 |  MAE[r,l,t] = [ 1.7130,  2.4681,  1.8412] | Avg MAE:  2.0074
+             Val Loss:   1.5540 | RMSE[r,l,t] = [ 1.9727,  3.0288,  2.3153] | Avg RMSE:  2.4390
+model saved
+[Epoch 20] Train Loss:   0.7355 |  MAE[r,l,t] = [ 1.6747,  2.4279,  1.6509] | Avg MAE:  1.9179
+             Val Loss:   1.4786 | RMSE[r,l,t] = [ 2.0178,  2.9663,  2.0712] | Avg RMSE:  2.3518
+[Epoch 21] Train Loss:   0.6763 |  MAE[r,l,t] = [ 1.6864,  2.6186,  2.1572] | Avg MAE:  2.1541
+             Val Loss:   1.7078 | RMSE[r,l,t] = [ 2.0515,  3.2515,  2.6601] | Avg RMSE:  2.6544
+[Epoch 22] Train Loss:   0.6323 |  MAE[r,l,t] = [ 1.8302,  2.4622,  1.6770] | Avg MAE:  1.9898
+             Val Loss:   1.5387 | RMSE[r,l,t] = [ 2.0945,  2.9759,  2.0512] | Avg RMSE:  2.3739
+[Epoch 23] Train Loss:   0.6081 |  MAE[r,l,t] = [ 1.7527,  2.5790,  2.1625] | Avg MAE:  2.1648
+             Val Loss:   1.6994 | RMSE[r,l,t] = [ 2.0496,  3.0430,  2.5857] | Avg RMSE:  2.5594
+[Epoch 24] Train Loss:   0.5625 |  MAE[r,l,t] = [ 2.3411,  2.5943,  2.5274] | Avg MAE:  2.4876
+             Val Loss:   2.0237 | RMSE[r,l,t] = [ 2.8036,  3.0450,  2.9552] | Avg RMSE:  2.9346
+[Epoch 25] Train Loss:   0.5265 |  MAE[r,l,t] = [ 2.1472,  2.4837,  1.9233] | Avg MAE:  2.1848
+             Val Loss:   1.7251 | RMSE[r,l,t] = [ 2.4905,  3.0312,  2.3691] | Avg RMSE:  2.6303
+[Epoch 26] Train Loss:   0.5279 |  MAE[r,l,t] = [ 1.8050,  2.4410,  1.8881] | Avg MAE:  2.0447
+             Val Loss:   1.5976 | RMSE[r,l,t] = [ 2.1800,  3.0211,  2.3789] | Avg RMSE:  2.5267
+model saved
+[Epoch 27] Train Loss:   0.5080 |  MAE[r,l,t] = [ 1.6809,  2.4710,  1.7505] | Avg MAE:  1.9675
+             Val Loss:   1.5263 | RMSE[r,l,t] = [ 2.0304,  3.0329,  2.2085] | Avg RMSE:  2.4239
+[Epoch 28] Train Loss:   0.4367 |  MAE[r,l,t] = [ 2.1704,  2.9949,  2.1005] | Avg MAE:  2.4219
+             Val Loss:   1.9670 | RMSE[r,l,t] = [ 2.6604,  3.7334,  2.6416] | Avg RMSE:  3.0118
+[Epoch 29] Train Loss:   0.4578 |  MAE[r,l,t] = [ 1.9250,  2.4740,  1.6204] | Avg MAE:  2.0065
+             Val Loss:   1.5516 | RMSE[r,l,t] = [ 2.2271,  3.0382,  1.9908] | Avg RMSE:  2.4187
+[Epoch 30] Train Loss:   0.4008 |  MAE[r,l,t] = [ 1.9479,  2.4981,  1.8398] | Avg MAE:  2.0952
+             Val Loss:   1.6382 | RMSE[r,l,t] = [ 2.2587,  3.0272,  2.2305] | Avg RMSE:  2.5055
+model saved
+[Epoch 31] Train Loss:   0.4112 |  MAE[r,l,t] = [ 1.6743,  2.3989,  1.8567] | Avg MAE:  1.9766
+             Val Loss:   1.5371 | RMSE[r,l,t] = [ 2.1674,  3.0040,  2.2976] | Avg RMSE:  2.4897
+[Epoch 32] Train Loss:   0.3550 |  MAE[r,l,t] = [ 1.9102,  2.5831,  1.9669] | Avg MAE:  2.1534
+             Val Loss:   1.6927 | RMSE[r,l,t] = [ 2.2307,  3.1164,  2.3608] | Avg RMSE:  2.5693
+[Epoch 33] Train Loss:   0.3312 |  MAE[r,l,t] = [ 2.0672,  2.6757,  2.2583] | Avg MAE:  2.3337
+             Val Loss:   1.8702 | RMSE[r,l,t] = [ 2.3721,  3.1285,  2.7448] | Avg RMSE:  2.7484
+[Epoch 34] Train Loss:   0.4027 |  MAE[r,l,t] = [ 2.3139,  2.6420,  1.7528] | Avg MAE:  2.2363
+             Val Loss:   1.7772 | RMSE[r,l,t] = [ 2.7398,  3.1753,  2.1141] | Avg RMSE:  2.6764
+[Epoch 35] Train Loss:   0.3056 |  MAE[r,l,t] = [ 1.9837,  2.5098,  1.7111] | Avg MAE:  2.0682
+             Val Loss:   1.6198 | RMSE[r,l,t] = [ 2.4105,  3.0793,  2.1290] | Avg RMSE:  2.5396
+[Epoch 36] Train Loss:   0.3153 |  MAE[r,l,t] = [ 2.1177,  2.4988,  2.1148] | Avg MAE:  2.2438
+             Val Loss:   1.7774 | RMSE[r,l,t] = [ 2.4189,  2.9759,  2.6012] | Avg RMSE:  2.6653
+[Epoch 37] Train Loss:   0.3079 |  MAE[r,l,t] = [ 1.8480,  2.6076,  1.8521] | Avg MAE:  2.1026
+             Val Loss:   1.6538 | RMSE[r,l,t] = [ 2.2531,  3.1156,  2.1920] | Avg RMSE:  2.5202
+[Epoch 38] Train Loss:   0.2694 |  MAE[r,l,t] = [ 2.0476,  2.6251,  1.6050] | Avg MAE:  2.0926
+             Val Loss:   1.6398 | RMSE[r,l,t] = [ 2.4665,  3.1826,  1.9689] | Avg RMSE:  2.5393
+[Epoch 39] Train Loss:   0.2679 |  MAE[r,l,t] = [ 2.0138,  2.5222,  1.7750] | Avg MAE:  2.1037
+             Val Loss:   1.6496 | RMSE[r,l,t] = [ 2.3549,  3.1034,  2.1444] | Avg RMSE:  2.5342
+[Epoch 40] Train Loss:   0.2555 |  MAE[r,l,t] = [ 1.8751,  2.4577,  1.6918] | Avg MAE:  2.0082
+             Val Loss:   1.5622 | RMSE[r,l,t] = [ 2.2220,  3.0245,  2.0711] | Avg RMSE:  2.4392
+
+[INFO] Loaded model state dict from checkpoint: task2_model.pth
+[TEST]  MAE[r,l,t] = [1.0376, 1.8761, 1.2882] | Avg  MAE = 1.4007
+[TEST] RMSE[r,l,t] = [1.3227, 2.3184, 1.6862] | Avg RMSE = 1.7758
