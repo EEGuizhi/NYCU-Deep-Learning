@@ -1,0 +1,173 @@
+Start time: Fri Oct 24 00:35:06 2025
+>> Random seed set to 173
+
+Max tokenize length: 128
+===== Chinese tokenized data =====
+[101, 2769, 3221, 5979, 4396, 3419, 3360, 511, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+===== English tokenized data =====
+[101, 146, 112, 182, 5640, 10983, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+
+train size: 47500
+valid size: 2500
+The parameter size of model is 24759.876 k
+
+
+>> Start training...
+Model training on device: cuda
+Epoch: 1, Train loss: 4.083, Val loss: 3.668, Val Acc: 0.239, Epoch time = 42.021s
+(model saved)
+Epoch: 2, Train loss: 3.142, Val loss: 3.231, Val Acc: 0.307, Epoch time = 42.113s
+(model saved)
+Epoch: 3, Train loss: 2.711, Val loss: 2.993, Val Acc: 0.340, Epoch time = 42.214s
+(model saved)
+Epoch: 4, Train loss: 2.437, Val loss: 2.842, Val Acc: 0.363, Epoch time = 42.084s
+(model saved)
+Epoch: 5, Train loss: 2.235, Val loss: 2.746, Val Acc: 0.381, Epoch time = 42.053s
+(model saved)
+Epoch: 6, Train loss: 2.076, Val loss: 2.701, Val Acc: 0.393, Epoch time = 42.072s
+(model saved)
+Epoch: 7, Train loss: 1.946, Val loss: 2.656, Val Acc: 0.405, Epoch time = 42.079s
+(model saved)
+Epoch: 8, Train loss: 1.833, Val loss: 2.633, Val Acc: 0.413, Epoch time = 42.085s
+(model saved)
+Epoch: 9, Train loss: 1.738, Val loss: 2.624, Val Acc: 0.419, Epoch time = 42.077s
+(model saved)
+Epoch: 10, Train loss: 1.653, Val loss: 2.620, Val Acc: 0.425, Epoch time = 42.065s
+(model saved)
+Epoch: 11, Train loss: 1.579, Val loss: 2.600, Val Acc: 0.425, Epoch time = 42.083s
+(model saved)
+Epoch: 12, Train loss: 1.511, Val loss: 2.608, Val Acc: 0.427, Epoch time = 42.238s
+(model saved)
+Epoch: 13, Train loss: 1.451, Val loss: 2.591, Val Acc: 0.429, Epoch time = 42.105s
+(model saved)
+Epoch: 14, Train loss: 1.396, Val loss: 2.626, Val Acc: 0.431, Epoch time = 42.158s
+(model saved)
+Epoch: 15, Train loss: 1.347, Val loss: 2.610, Val Acc: 0.438, Epoch time = 42.682s
+(model saved)
+Epoch: 16, Train loss: 1.300, Val loss: 2.658, Val Acc: 0.434, Epoch time = 42.232s
+Epoch: 17, Train loss: 1.260, Val loss: 2.656, Val Acc: 0.437, Epoch time = 42.144s
+Epoch: 18, Train loss: 1.220, Val loss: 2.672, Val Acc: 0.435, Epoch time = 42.114s
+Epoch: 19, Train loss: 1.187, Val loss: 2.697, Val Acc: 0.441, Epoch time = 42.062s
+(model saved)
+Epoch: 20, Train loss: 1.027, Val loss: 2.676, Val Acc: 0.450, Epoch time = 42.084s
+(model saved)
+Epoch: 21, Train loss: 0.972, Val loss: 2.704, Val Acc: 0.450, Epoch time = 42.165s
+(model saved)
+Epoch: 22, Train loss: 0.939, Val loss: 2.735, Val Acc: 0.449, Epoch time = 42.096s
+Epoch: 23, Train loss: 0.916, Val loss: 2.744, Val Acc: 0.450, Epoch time = 42.112s
+(model saved)
+Epoch: 24, Train loss: 0.891, Val loss: 2.783, Val Acc: 0.451, Epoch time = 42.072s
+(model saved)
+Epoch: 25, Train loss: 0.873, Val loss: 2.798, Val Acc: 0.454, Epoch time = 42.094s
+(model saved)
+Epoch: 26, Train loss: 0.771, Val loss: 2.779, Val Acc: 0.463, Epoch time = 42.039s
+(model saved)
+Epoch: 27, Train loss: 0.735, Val loss: 2.791, Val Acc: 0.458, Epoch time = 42.079s
+Epoch: 28, Train loss: 0.712, Val loss: 2.830, Val Acc: 0.461, Epoch time = 42.123s
+Epoch: 29, Train loss: 0.694, Val loss: 2.824, Val Acc: 0.465, Epoch time = 42.075s
+(model saved)
+Epoch: 30, Train loss: 0.679, Val loss: 2.867, Val Acc: 0.459, Epoch time = 42.170s
+Epoch: 31, Train loss: 0.667, Val loss: 2.898, Val Acc: 0.460, Epoch time = 42.136s
+Epoch: 32, Train loss: 0.601, Val loss: 2.873, Val Acc: 0.464, Epoch time = 42.069s
+Epoch: 33, Train loss: 0.576, Val loss: 2.886, Val Acc: 0.464, Epoch time = 42.063s
+Epoch: 34, Train loss: 0.560, Val loss: 2.923, Val Acc: 0.464, Epoch time = 42.077s
+Epoch: 35, Train loss: 0.547, Val loss: 2.937, Val Acc: 0.465, Epoch time = 42.059s
+(model saved)
+Epoch: 36, Train loss: 0.536, Val loss: 2.975, Val Acc: 0.464, Epoch time = 42.108s
+(model saved)
+Epoch: 37, Train loss: 0.527, Val loss: 3.005, Val Acc: 0.466, Epoch time = 42.148s
+(model saved)
+Epoch: 38, Train loss: 0.482, Val loss: 2.979, Val Acc: 0.466, Epoch time = 42.226s
+(model saved)
+Epoch: 39, Train loss: 0.466, Val loss: 3.000, Val Acc: 0.465, Epoch time = 42.162s
+Epoch: 40, Train loss: 0.455, Val loss: 3.003, Val Acc: 0.466, Epoch time = 42.106s
+Epoch: 41, Train loss: 0.447, Val loss: 3.026, Val Acc: 0.465, Epoch time = 42.146s
+Epoch: 42, Train loss: 0.439, Val loss: 3.049, Val Acc: 0.464, Epoch time = 42.092s
+Epoch: 43, Train loss: 0.435, Val loss: 3.067, Val Acc: 0.465, Epoch time = 42.115s
+Epoch: 44, Train loss: 0.404, Val loss: 3.058, Val Acc: 0.465, Epoch time = 42.050s
+Epoch: 45, Train loss: 0.393, Val loss: 3.078, Val Acc: 0.465, Epoch time = 42.101s
+Epoch: 46, Train loss: 0.385, Val loss: 3.098, Val Acc: 0.463, Epoch time = 42.019s
+Epoch: 47, Train loss: 0.379, Val loss: 3.096, Val Acc: 0.462, Epoch time = 42.273s
+Epoch: 48, Train loss: 0.374, Val loss: 3.135, Val Acc: 0.467, Epoch time = 42.248s
+(model saved)
+Epoch: 49, Train loss: 0.368, Val loss: 3.115, Val Acc: 0.466, Epoch time = 42.100s
+Epoch: 50, Train loss: 0.351, Val loss: 3.135, Val Acc: 0.468, Epoch time = 42.098s
+(model saved)
+Epoch: 51, Train loss: 0.344, Val loss: 3.148, Val Acc: 0.464, Epoch time = 42.047s
+Epoch: 52, Train loss: 0.336, Val loss: 3.162, Val Acc: 0.465, Epoch time = 42.072s
+Epoch: 53, Train loss: 0.334, Val loss: 3.156, Val Acc: 0.467, Epoch time = 42.087s
+(model saved)
+Epoch: 54, Train loss: 0.329, Val loss: 3.183, Val Acc: 0.466, Epoch time = 42.040s
+Epoch: 55, Train loss: 0.325, Val loss: 3.184, Val Acc: 0.464, Epoch time = 42.117s
+Epoch: 56, Train loss: 0.314, Val loss: 3.200, Val Acc: 0.468, Epoch time = 42.075s
+(model saved)
+Epoch: 57, Train loss: 0.308, Val loss: 3.177, Val Acc: 0.468, Epoch time = 42.098s
+Epoch: 58, Train loss: 0.304, Val loss: 3.183, Val Acc: 0.466, Epoch time = 42.095s
+Epoch: 59, Train loss: 0.301, Val loss: 3.199, Val Acc: 0.468, Epoch time = 42.074s
+(model saved)
+Epoch: 60, Train loss: 0.298, Val loss: 3.222, Val Acc: 0.468, Epoch time = 42.194s
+Epoch: 61, Train loss: 0.296, Val loss: 3.219, Val Acc: 0.468, Epoch time = 42.347s
+Epoch: 62, Train loss: 0.289, Val loss: 3.230, Val Acc: 0.467, Epoch time = 42.045s
+Epoch: 63, Train loss: 0.284, Val loss: 3.241, Val Acc: 0.469, Epoch time = 42.009s
+(model saved)
+Epoch: 64, Train loss: 0.281, Val loss: 3.237, Val Acc: 0.469, Epoch time = 42.146s
+(model saved)
+Epoch: 65, Train loss: 0.278, Val loss: 3.238, Val Acc: 0.469, Epoch time = 42.041s
+(model saved)
+Epoch: 66, Train loss: 0.278, Val loss: 3.244, Val Acc: 0.469, Epoch time = 41.982s
+(model saved)
+Epoch: 67, Train loss: 0.276, Val loss: 3.251, Val Acc: 0.466, Epoch time = 42.025s
+Epoch: 68, Train loss: 0.272, Val loss: 3.255, Val Acc: 0.468, Epoch time = 42.116s
+Epoch: 69, Train loss: 0.268, Val loss: 3.261, Val Acc: 0.469, Epoch time = 42.056s
+(model saved)
+Epoch: 70, Train loss: 0.267, Val loss: 3.271, Val Acc: 0.469, Epoch time = 42.295s
+Epoch: 71, Train loss: 0.265, Val loss: 3.274, Val Acc: 0.468, Epoch time = 42.173s
+Epoch: 72, Train loss: 0.263, Val loss: 3.286, Val Acc: 0.468, Epoch time = 42.005s
+Epoch: 73, Train loss: 0.263, Val loss: 3.274, Val Acc: 0.467, Epoch time = 42.147s
+Epoch: 74, Train loss: 0.260, Val loss: 3.270, Val Acc: 0.470, Epoch time = 42.132s
+(model saved)
+Epoch: 75, Train loss: 0.258, Val loss: 3.266, Val Acc: 0.468, Epoch time = 42.059s
+Epoch: 76, Train loss: 0.257, Val loss: 3.272, Val Acc: 0.469, Epoch time = 42.042s
+Epoch: 77, Train loss: 0.255, Val loss: 3.303, Val Acc: 0.468, Epoch time = 41.975s
+Epoch: 78, Train loss: 0.255, Val loss: 3.296, Val Acc: 0.470, Epoch time = 42.030s
+(model saved)
+Epoch: 79, Train loss: 0.253, Val loss: 3.300, Val Acc: 0.468, Epoch time = 42.058s
+Epoch: 80, Train loss: 0.253, Val loss: 3.289, Val Acc: 0.469, Epoch time = 42.023s
+>> Training complete.
+
+Input:         : 你好，欢迎来到中国。
+Prediction     : You are a good reputation for China.
+Ground truth   : Hello, welcome to China.
+Bleu Score (1-gram):  0.1428571492433548
+Bleu Score (2-gram):  0.0
+Bleu Score (3-gram):  0.0
+Bleu Score (4-gram):  0.0
+
+Input:         : 她知道您的電話號碼嗎?
+Prediction     : Does she know your telephone number?
+Ground truth   : Does she know your telephone number?
+Bleu Score (1-gram):  1.0
+Bleu Score (2-gram):  1.0
+Bleu Score (3-gram):  1.0
+Bleu Score (4-gram):  1.0
+
+Input:         : 你现在在哪里工作?
+Prediction     : Where do you work right now?
+Ground truth   : Where do you work now?
+Bleu Score (1-gram):  0.8333333134651184
+Bleu Score (2-gram):  0.7071067690849304
+Bleu Score (3-gram):  0.6299605369567871
+Bleu Score (4-gram):  0.5372849702835083
+
+
+>> Start testing...
+The parameter size of model is 24759.876 k
+[32m====================  PASS parameter size requirement  ====================[0m
+BLEU score (1-gram) =  0.4644069808535278
+BLEU score (2-gram) =  0.3297111455723643
+BLEU score (3-gram) =  0.24184932246804236
+BLEU score (4-gram) =  0.17688478745520114
+[32m====================  PASS BLEU score requirement      ====================[0m
+execution time = 8.535s
+[32m====================  PASS execution time requirement  ====================[0m
