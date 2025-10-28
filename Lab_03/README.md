@@ -29,7 +29,7 @@ Lab_03/
 │   ├── Lab03_exe.py                (Executable python training file)
 │   └── Lab03_TrainingLoop.py       (Training loop to find the best model)
 ├── 2025_DL_Lab03.pdf               (Assignment description)
-├── Lab02_MachineTranslation.ipynb  (Demo file)
+├── Lab03_MachineTranslation.ipynb  (Demo file)
 ├── network.py                      (Machine translation model implementation)
 ├── run.py                          (Executable file for model testing)
 ├── utils.py                        (Definitions and tool functions)
